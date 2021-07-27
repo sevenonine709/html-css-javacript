@@ -23,12 +23,20 @@ function Person(first, last, gen, ftitle, vsalary) {
 function addtable(objNames){
 
         let tbody = document.getElementById("tbody");
+<<<<<<< HEAD
       
+=======
+     
+>>>>>>> d3f7567b98065d30336f9d1a52cf3451e4e0c084
         let row = document.createElement('tr');
         let row_data_1 = document.createElement('td');
         row_data_1.innerHTML = objNames.firstName;
         let row_data_2 = document.createElement('td');
+<<<<<<< HEAD
         row_data_2.innerHTML = objNames.lastName;
+=======
+        row_data_2.innerHTML = objNaes.lastName;
+>>>>>>> d3f7567b98065d30336f9d1a52cf3451e4e0c084
         row.appendChild(row_data_1);
         row.appendChild(row_data_2);
         tbody.appendChild(row);
