@@ -14,3 +14,7 @@
     display: inline-block;
     padding-right: 10px;
 }
+
+.nonactiv {
+    display: none;
+}

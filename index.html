@@ -13,11 +13,11 @@
 <body>
     <div class="w3-container">
         <div class="w3-bar w3-green">
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right">Homework1</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right">Homework1 bonus</a>
-            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right">Homework2</a>
+            <button  id="homew1" class="w3-bar-item w3-button w3-mobile ">Homework1</button>
+            <button id="homew2" class="w3-bar-item w3-button w3-mobile ">Homework1 bonus</button>
+            <button id="homew3" class="w3-bar-item w3-button w3-mobile ">Homework2</button>
         </div>
-            <div class="w3-content w3-margin-top activ" style="max-width:500px" id="simpleMenu">
+            <div class="w3-content w3-margin-top pages" style="max-width:500px" id="page1">
                 <div class="w3-card-4">
                     
                         <div class="w3-container w3-green">
@@ -29,27 +29,26 @@
                                 <option value="M" selected>Mr.</option>
                                 <option value="W">Mrs.</option>
                             </select>
-                      
-                    
+                                      
                             
                             <div class="w3-container " style="padding-left: 0%;" ><label>First Name</label></div>
                             <input class="w3-input" id="firstName" type="text">
                        
                    
-                    <label>Last name</label>
-                    <input class="w3-input" id="lastName" type="text">
+                            <label>Last name</label>
+                            <input class="w3-input" id="lastName" type="text">
                 
-                <div class="w3-container" style="padding-right: 0%;"><button id="buttonAdd" class="w3-button w3-green w3-right">Click here</button></div>
-                
-            
-            
+                      <div class="w3-container" style="padding-right: 0%;"><button id="buttonAdd" class="w3-button w3-green w3-right">Click here</button></div>
+        
+                </div>
             </div>
-            
-            <table id="tableName" class="w3-table-all">
+            <div class="w3-content w3-margin-top pages" style="max-width:500px" id="page2">
+            <table id="tableName" class="w3-table-all w3-margin-top" >
                 <thead>
                   <tr class="w3-light-grey">
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th></th>
                  </tr>
                 </thead>
                              
@@ -59,9 +58,11 @@
                    
                 
               </table>
+              </div>
 
-            </div>
-
+            
+            
+        
             
     <script src="js/employees.js"></script>
     </div>
