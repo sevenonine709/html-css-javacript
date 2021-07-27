@@ -2,38 +2,50 @@
 <html>
 
 <head>
-    <title>Test html page</title>
+    <title>Employee info</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
 </head>
 
 <body>
+    <div class="w3-container">
+        <div class="w3-bar w3-green">
+            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right">Homework1</a>
+            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right">Homework1 bonus</a>
+            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right">Homework2</a>
+        </div>
+            <div class="w3-content w3-margin-top" style="max-width:500px" id="simpleMenu">
+                <div class="w3-card-4">
+                    
+                        <div class="w3-container w3-green">
+                        <h2>Registration</h2>
+                        </div>
+                      
+                        
+                            <select class="w3-select w3-quarter" name="Gender" id="gendName">
+                                <option value="M" selected>Mr.</option>
+                                <option value="W">Mrs.</option>
+                            </select>
+                      
+                    
+                            
+                            <div class="w3-container " style="padding-left: 0%;" ><label>First Name</label></div>
+                            <input class="w3-input" id="firstName" type="text">
+                       
+                   
+                    <label>Last name</label>
+                    <input class="w3-input" id="lastName" type="text">
+                
+                <div class="w3-container" style="padding-right: 0%;"><button id="buttonAdd" class="w3-button w3-green w3-right">Click here</button></div>
+                </div>
+            
+            </div>
 
-    <div id="header">
-        <ul class="menu">
-            <li>Home</li>
-            <li><a href="employees.html">Employees</a></li>
-        </ul>
-    </div>
 
-    <div id="content">
-
-        <h2>This is the page heading</h2>
-
-        <p>This is a simple web page.</p>
-        <p>This is a second paragraph including text in <b>bold</b>, <i>italic</i> and <u>underlined</u>.</p>
-
-        <img src="images/dog.jpg" class="image" />
-
-        <p>Open <a href="https://dirico.io/" target="_blank">Dirico</a></p>
-
-        <br>
-
-        <h3>This is a video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/k-jhzr-bIXM" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+    <script src="js/employees.js"></script>
     </div>
 </body>
 
