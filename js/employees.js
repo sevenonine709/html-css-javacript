@@ -16,6 +16,8 @@ document.getElementById("homew2Visib").style.display="none";
 const homew1=document.getElementById("homew1");
 const homew2=document.getElementById("homew2");
 const homew3=document.getElementById("homew3");
+const homew4=document.getElementById("homew4");
+
 const homew2Visib=document.getElementById("homew2Visib");
 
 homew1.onclick = function() { 
@@ -38,6 +40,10 @@ homew3.onclick = function() {
     document.getElementById("page2").style.display="none";
     verify=1;
 
+}
+
+homew4.onclick = function() {
+    window.open("pages/contact.html", "_self");
 }
 
 const special=/[*|\":<>[\]{}`\\()';@&$1234567890]/;
