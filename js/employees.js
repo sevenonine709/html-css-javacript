@@ -17,6 +17,7 @@ const homew1=document.getElementById("homew1");
 const homew2=document.getElementById("homew2");
 const homew3=document.getElementById("homew3");
 const homew4=document.getElementById("homew4");
+const homew5=document.getElementById("homew5");
 
 const homew2Visib=document.getElementById("homew2Visib");
 
@@ -44,6 +45,9 @@ homew3.onclick = function() {
 
 homew4.onclick = function() {
     window.open("pages/contact.html", "_self");
+}
+homew5.onclick = function() {
+    window.open("pages/details.html", "_self");
 }
 
 const special=/[*|\":<>[\]{}`\\()';@&$1234567890]/;
