@@ -9,18 +9,26 @@ const indexfirst = 1;
 const homew1=document.getElementById("homew1");
 const homew2=document.getElementById("homew2");
 const homew3=document.getElementById("homew3");
-
+const homew2Visib=document.getElementById("homew2Visib");
 
 homew1.onclick = function() { 
     document.getElementById("page1").style.display="block";
-    
+    document.getElementById("page2").style.display="block";
+    document.getElementById("homew2Visib").style.display="none";
+
 }
 homew2.onclick = function() { 
     document.getElementById("page1").style.display="none";
-    
-   
+     
 }
+homew3.onclick = function() { 
+    
+    document.getElementById("page1").style.display="block";
+    document.getElementById("homew2Visib").style.display="block";
+    document.getElementById("page2").style.display="none";
 
+
+}
 
 const special=/[*|\":<>[\]{}`\\()';@&$1234567890]/;
 infirstName.value=null;
@@ -36,6 +44,9 @@ function Person(first, last, gen, ftitle, vsalary) {
     this.salaryValue = vsalary; 
      }
   
+function texttojs (){
+
+}
 function addtable(objNames){
 
         let tbody = document.getElementById("tbody");
